@@ -1,0 +1,63 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+ 
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mobile{
+  color:#282c34;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p{
+  position:absolute;
+  color:#e7423c;
+  font-weight:480;
+  left:2cm;
+  top:2cm;
+  
+  
+}
+.menu{
+  position: absolute;
+  left: 30cm;
+}
+.mid{
+  position:absolute;
+  left:13.5cm;
+  top:11.3cm;
+  
+}
