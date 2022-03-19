@@ -20,10 +20,10 @@ p{
   left: 260px;
   top: 42px;
   font-family:"Poppins", sans-serif;
-  
+  font-size:15px;
   
 }
-.menu a{
+ a{
   color: #000000;
   text-decoration: none;
 }
