@@ -13,16 +13,21 @@
   left: 46px;
   top: 60px;
   cursor: pointer;
-  
+ 
 }
-p{
-  position:absolute;
-  left: 260px;
-  top: 42px;
-  font-family:"Poppins", sans-serif;
-  font-size:15px;
-  
+@media (max-width: 560px){
+  .title{
+    left: 35px;
+    top: 40px;
+  }
 }
+@media (max-width: 560px) {
+  .menu {
+    left: 36px;
+    top: 40px;
+  }
+}
+
  a{
   color: #000000;
   text-decoration: none;
@@ -50,4 +55,11 @@ p{
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+[class*='column'] {
+  width: calc(100% - 1rem);
+  float: left;
+  min-height: 1px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }

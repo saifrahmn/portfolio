@@ -1,0 +1,62 @@
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 46px;
+    top: 60px;
+  }
+  .menu{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 46px;
+    top: 60px;
+    cursor: pointer;
+    
+  }
+  p{
+    position:absolute;
+    left: 340px;
+    top: 95px;
+    font-family:"Poppins", sans-serif;
+    font-size:15px;
+    
+  }
+   a{
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height:1px;
+    bottom: 0;
+    left: 0;
+    background-color: #06C;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .head{
+      position: absolute;
+      top: 39px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+  }
+  .heading{
+      font-weight: bold;
+  }
