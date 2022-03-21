@@ -5,6 +5,12 @@
     left: 46px;
     top: 60px;
   }
+  @media (max-width:560px){
+    .title{
+      left: 13px;
+      top: 40px;
+    }
+  }
   .menu{
     margin-top: 50px;
     font-family: 'Josefin Sans', sans-serif;
@@ -56,6 +62,18 @@
       top: 39px;
       font-family: 'Josefin Sans', sans-serif;
       font-size: 20px;
+  }
+  @media (max-width:560px) {
+    .head{
+      left: 13px;
+      top: 147px;
+    }
+  }
+  @media (max-width:560px) {
+    .info{
+      left: 13px;
+      top: 205px;
+    }
   }
   .heading{
       font-weight: bold;

@@ -1,5 +1,5 @@
 img{
-    
+    display:none;
     width: 100%;
     position: absolute;
     left: 23cm;
@@ -20,6 +20,12 @@ img{
     left: 260px;
     top: 60px;
 }
+@media (max-width:560px){
+    .sub-title{
+        left: 13px;
+        top: 145px;
+    }
+}
 .blog-name{
     position: absolute;
     left: 69mm;
@@ -28,6 +34,13 @@ img{
     font-size:14px;
     
 }
+@media (max-width:560px){
+    .blog-name{
+        left: 20px;
+        top: 185px;
+    }
+    }
+
 .blog-name a{
     text-decoration: underline;
 }
@@ -45,8 +58,8 @@ p{
   }
   @media (max-width: 560px)  {
       p{
-        left: 13px;
-        top: 270px;
+        left:auto;
+        top: 145px;
         font-size: 13px;
       }
   }
