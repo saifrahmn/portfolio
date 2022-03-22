@@ -49,6 +49,8 @@ img{
    
 }
 p{
+    margin-left: 4pc;
+    margin-right:25pc;
     position:absolute;
     left: 260px;
     top: 42px;
@@ -58,7 +60,8 @@ p{
   }
   @media (max-width: 560px)  {
       p{
-        left:auto;
+        margin-left: -16pc;
+        margin-right:0pc;
         top: 145px;
         font-size: 13px;
       }
