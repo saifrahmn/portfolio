@@ -28,7 +28,7 @@ if (isBuild) {
 }
 
 export default defineConfig({
-  server: { port: SERVER_PORT },
+  // server: { port: SERVER_PORT },
   site: 'https://saifrahmn.github.io',
   base:  '/portfolio',
   integrations: [
